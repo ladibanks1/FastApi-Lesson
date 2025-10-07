@@ -1,0 +1,22 @@
+[project]
+name = "fastapi-lesson"
+version = "1.0"
+description = "Lesson For Fast Api"
+authors = [
+    {name = "ola"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.115.13,<0.116.0)",
+    "uvicorn (>=0.34.3,<0.35.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "psycopg (>=3.2.9,<4.0.0)",
+    "email-validator (>=2.2.0,<3.0.0)"
+]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
